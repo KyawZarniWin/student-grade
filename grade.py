@@ -8,3 +8,8 @@ average = total / 2
 print(f"\nStudent Name: {name}")
 print(f"Total Mark: {total}")
 print(f"Average Mark: {average}")
+
+if average >= 50:
+    print("Result: Pass")
+else:
+    print("Result: Fail")
